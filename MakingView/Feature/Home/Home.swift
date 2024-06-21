@@ -12,7 +12,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Home: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack{
@@ -45,26 +45,7 @@ struct ContentView: View {
     }
 }
 
-struct MenuButton: View {
-    var optionalTitle:String?
-    var optionalImg: String?
-    var body: some View {
-        HStack {
-            if let img = optionalImg {
-                Image(systemName: img)
-                    .font(.system(size: 20))
-            }
-            if let title = optionalTitle {
-                Text(title)
-            }
-        }
-        .padding()
-        .background(Color("ButtonColor"))
-        .cornerRadius(14)
-    }
-}
-
 
 #Preview {
-    ContentView()
+    Home()
 }

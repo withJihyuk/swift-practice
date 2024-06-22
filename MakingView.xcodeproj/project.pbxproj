@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B3052D882C254D9E0010D3AE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3052D862C254D9E0010D3AE /* Home.swift */; };
 		B3052D8A2C254DFF0010D3AE /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3052D892C254DFF0010D3AE /* MenuButton.swift */; };
+		B3052D8C2C2679D40010D3AE /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3052D8B2C2679D40010D3AE /* Items.swift */; };
 		B3E5286E2C22EE2C00861084 /* MakingViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5286D2C22EE2C00861084 /* MakingViewApp.swift */; };
 		B3E528722C22EE2D00861084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E528712C22EE2D00861084 /* Assets.xcassets */; };
 		B3E528752C22EE2D00861084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E528742C22EE2D00861084 /* Preview Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		B3052D862C254D9E0010D3AE /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B3052D892C254DFF0010D3AE /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		B3052D8B2C2679D40010D3AE /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 		B3E5286A2C22EE2B00861084 /* MakingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E5286D2C22EE2C00861084 /* MakingViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingViewApp.swift; sourceTree = "<group>"; };
 		B3E528712C22EE2D00861084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				B3052D862C254D9E0010D3AE /* Home.swift */,
 				B3052D892C254DFF0010D3AE /* MenuButton.swift */,
+				B3052D8B2C2679D40010D3AE /* Items.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			files = (
 				B3E5286E2C22EE2C00861084 /* MakingViewApp.swift in Sources */,
 				B3052D882C254D9E0010D3AE /* Home.swift in Sources */,
+				B3052D8C2C2679D40010D3AE /* Items.swift in Sources */,
 				B3052D8A2C254DFF0010D3AE /* MenuButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

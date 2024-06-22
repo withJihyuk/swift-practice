@@ -37,6 +37,9 @@ struct Home: View {
                 MenuButton(optionalTitle: "알바", optionalImg: "person")
                 MenuButton(optionalTitle: "부동산", optionalImg: "house")
                 }
+            Spacer()
+                .frame(height: 20)
+            Items(UploadTime: "AA", Price: 2222, Town: "zz", HeartCount: 1, Title: "안녕", ImgUrl: "https://images.velog.io/images/sdb016/post/47181c7c-1156-4182-a638-e0ad0b03a3d3/test.png")
             
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
